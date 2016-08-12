@@ -1,0 +1,65 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.chatBox{
+
+  position: fixed;
+  top: 50px;
+  left:100px;
+  right: 100px;
+  height: 500px;
+    width: 500px;
+  background-color: #7cb7b9;
+  padding: 20px;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+.textarea{
+  width: 75%;
+position: absolute;
+/* top: 200px; */
+bottom: 10px;
+left: 10px;
+}
+.centerBox{
+  background-color: #D8E7F2;
+      height: 100%;
+      padding: 10px;
+      border-radius: 10px;
+}
+button{
+  position: absolute;
+/* float: left; */
+right: 23px;
+bottom: 17px;
+}
+
+.yoman{
+  background-color: black;
+}
+#chatBoxColumn {
+    width: 400px;
+    height: 363px;
+}
+.heading{
+  padding: 5px;
+  margin: 10px;
+}
+.middleRow{
+  height: 400px;
+}
+.countBox{
+width: 90px;
+height: 100px;
+position: relative;
+background-color: cornsilk;
+top: -362px;
+left: 380px;
+border-radius: 10px;
+}
