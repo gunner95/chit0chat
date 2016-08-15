@@ -37,19 +37,26 @@
       </div>
       <div class="row middleRow">
         <div class="col-md-8" id="chatBoxColumn">
-        <div class="centerBox" id="chatBox">
+          <div class="centerBox" id="chatBox">
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="countBox">
+            <h4>Online People</h4>
+            {{peopleOnlineCount}}
+          </div>
+        </div> -->
       </div>
-    </div>
-    <div class="col-md-4">
-      <div class="countBox">
-        {{peopleOnlineCount}}
-      </div>
-    </div>
+  <div class="row type-row">
+    <!-- <div class="jumbotron"></div> -->
+    <div class="type">
+    {{type}}
   </div>
-  <div class="row">
+  </div>
+  <div class="row form-row">
     <div class="message-form">
       <form ng-submit="submit()">
-        <textarea class="textarea" ng-model="message" placeholder="Press enter to send message" autofocus></textarea>
+        <textarea class="textarea" id="message" ng-model="message" placeholder="Press enter to send message" autofocus></textarea>
       </form>
       <button ng-click="submit()">Enter</button>
     </div>
